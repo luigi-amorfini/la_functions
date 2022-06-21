@@ -1,6 +1,8 @@
 # Luigi Amorfini My Library Functions "la_functions"
 Luigi Amorfini - Library My Functions
 
+--- open powershell in d:\ or X: ---
+
 cd D:\
 
 mkdir python
@@ -12,6 +14,15 @@ mkdir prove
 cd prove
 
 git clone https://github.com/luigi-amorfini/la_functions.git .
+
+Remove-Item -Recurse -Force .git
+
+rm .gitignore
+
+code .
+
+--- open terminal --
+
 
 python -m venv venv
 
