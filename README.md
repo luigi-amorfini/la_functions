@@ -41,3 +41,5 @@ python setup.py sdist
 pip install .\dist\la_functions-0.1.0.tar.gz
 
 cd .. ; cd ..
+
+py .\calcola_iva.py
