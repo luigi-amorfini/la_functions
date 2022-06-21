@@ -3,7 +3,11 @@ Luigi Amorfini - Library My Functions
 
 cd D:\
 
+mkdir python
+
 cd python
+
+mkdir prove
 
 cd prove
 
