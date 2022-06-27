@@ -52,7 +52,7 @@ cls
 
 py .\calcola_iva.py
 
-# The End Powersehell Terminal
+# The End Powershell Terminal
 
 code .
 # Visual studio code
