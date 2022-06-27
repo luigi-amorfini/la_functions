@@ -1,7 +1,7 @@
 # Luigi Amorfini My Library Functions "la_functions"
 Luigi Amorfini - Library My Functions
 
---- open powershell in d:\ or X: ---
+# open powershell in d:\ or X:
 
 cd D:\
 
@@ -52,3 +52,7 @@ cls
 
 py .\calcola_iva.py
 
+# The End Powersehell Terminal
+
+code .
+# Visual studio code
