@@ -7,7 +7,7 @@ def readme():
 
 setup(name='la_functions',
       version='0.1.0',
-      description='Luigi Amorfini - Functions',
+      description='Luigi Amorfini My Library Functions - la_functions',
       long_description=readme(),
       license='GPL',
       author='Luigi Amorfini',
