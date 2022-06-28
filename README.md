@@ -53,7 +53,5 @@ cls
 
 py .\calcola_iva.py
 
-# The End Powershell Terminal
-
+# Open Visual studio code
 code .
-# Visual studio code
