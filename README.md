@@ -21,7 +21,7 @@ python -m pip --no-cache-dir install -U pip ; pip --no-cache-dir install setupto
 
 pip --no-cache-dir install pillow requests numpy sounddevice soundfile
 
-
+>> using windows "https://git-scm.com/" - download installer 64bit.
 git clone https://github.com/luigi-amorfini/la_functions.git
 
 cd la_functions/
