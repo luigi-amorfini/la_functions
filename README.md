@@ -54,4 +54,6 @@ cls
 py .\calcola_iva.py
 
 # Open Visual studio code
+>> https://code.visualstudio.com/
+>> Install vs code and install addons: "Pylance". 
 code .
