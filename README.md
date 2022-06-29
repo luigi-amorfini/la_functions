@@ -1,7 +1,7 @@
 # Luigi Amorfini My Library Functions "la_functions"
 Luigi Amorfini - Library My Functions
 
-# open powershell in d:\ or X:
+# Open powershell in d:\ or X:
 
 cd D:\
 
@@ -53,7 +53,7 @@ cls
 
 py .\calcola_iva.py
 
-# Open Visual studio code
+# Open visual studio code
 >> https://code.visualstudio.com/
 >> Install vs code and install addons: "Pylance".
 
