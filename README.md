@@ -1,9 +1,7 @@
 # Luigi Amorfini My Library Functions "la_functions"
 >> Guida per thonny ide
 
-"""
-Strumenti->Apri shell di sistema
-"""
+# Strumenti->Apri shell di sistema
 
 python -m pip --no-cache-dir install -U pip && pip --no-cache-dir install setuptools --upgrade && pip --no-cache-dir install wheel
 
@@ -40,15 +38,12 @@ cls
 
 exit 
 
-"""
-Apri il file calcola_iva.py con thonny ide.
-"""
+
+# Apri il file calcola_iva.py con thonny ide.
 
 calcola_iva.py
 
-"""
-Esegui con tasto "F5"
-"""
+# Esegui con tasto "F5"
 
 
 
