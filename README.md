@@ -1,43 +1,30 @@
 # Luigi Amorfini My Library Functions "la_functions"
-Luigi Amorfini - Library My Functions
+>> Guida per thonny ide
 
-# Open powershell in d:\ or X:
+"""
+Strumenti->Apri shell di sistema
+"""
 
-cd D:\
+python -m pip --no-cache-dir install -U pip && pip --no-cache-dir install setuptools --upgrade && pip --no-cache-dir install wheel
 
-mkdir python
+pip --no-cache-dir install pillow requests numpy
 
-cd python
-
-mkdir prove
-
-cd prove
-
-python -m venv venv
-
-venv\Scripts\activate.ps1
-
-python -m pip --no-cache-dir install -U pip ; pip --no-cache-dir install setuptools --upgrade ; pip --no-cache-dir install wheel
-
-pip --no-cache-dir install pillow requests numpy sounddevice soundfile
-
->> using windows https://git-scm.com/ - download installer 64bit.
 
 git clone https://github.com/luigi-amorfini/la_functions.git
 
 cd la_functions/
 
-mv libs ../
+move libs ../
 
-Remove-Item -Recurse -Force .git
+rd /S .git
 
-rm .gitignore
+del .gitignore
 
-mv calcola_iva.py ../
+move calcola_iva.py ../
 
 cd ..
 
-Remove-Item -Recurse -Force la_functions
+rd /S la_functions
 
 cd libs/la_functions
 
@@ -47,14 +34,21 @@ python setup.py sdist
 
 pip install .\dist\la_functions-0.1.0.tar.gz
 
-cd .. ; cd ..
+cd .. && cd ..
 
 cls
 
-py .\calcola_iva.py
+exit 
 
-# Open visual studio code
->> https://code.visualstudio.com/
->> Install vs code and install addons: "Pylance".
+"""
+Apri il file calcola_iva.py con thonny ide.
+"""
 
-code .
+calcola_iva.py
+
+"""
+Esegui con tasto "F5"
+"""
+
+
+
