@@ -3,6 +3,7 @@
 
 # Tools->Open system shell
 
+[code]
 python -m pip --no-cache-dir install -U pip && pip --no-cache-dir install setuptools --upgrade && pip --no-cache-dir install wheel
 
 pip --no-cache-dir install pillow requests numpy
@@ -34,5 +35,5 @@ pip install .\dist\la_functions-0.1.0.tar.gz
 cd .. && cd ..
 
 exit
-
+[code]
 
